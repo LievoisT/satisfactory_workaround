@@ -1,8 +1,8 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#IfWinActive Satisfactory
-u::
+﻿#NoEnv  ;
+; #Warn  ;
+SendMode Input  ;
+SetWorkingDir %A_ScriptDir%  ;
+#IfWinActive Satisfactory  ;  Only changes the key if the satisfactory window is active
+u::  ;  Replace the u with the key you want to be the interact key in satisfactory
 Send, e
 return
